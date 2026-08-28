@@ -72,6 +72,20 @@ footer.foot ol { padding-left: 18px; }
 .task-title, .date-row .who, .sport-row .ev { font-size: 17.5px; }
 .header .sub { font-size: 17px; }
 footer.foot h3 { font-size: 16px; color: var(--nb-orange); }
+
+/* --- Self-hosted display faces (personal-use licences) --- */
+@font-face { font-family: "Milker"; src: url("fonts/milker.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "The Globe"; src: url("fonts/the-globe.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Flokison"; src: url("fonts/flokison.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+
+/* Milker carries the headlines; The Globe has NO punctuation glyphs, so it is
+   used only on punctuation-free text (brand mark, tags). */
+.header h1, .block-head h2, .header .meta .range, footer.foot h3 {
+  font-family: "Milker", var(--font-heading), Georgia, serif;
+  font-weight: 400;
+}
+.nav-brand, .tag { font-family: "The Globe", var(--font-heading), Georgia, serif; font-weight: 700; letter-spacing: 0.02em; }
+.nav-brand { font-size: 22px; }
 </style>
 </head>
 <body>
