@@ -1,104 +1,298 @@
 {
-  "generated": "2026-08-28",
-  "window": ["2026-08-28", "2026-09-03"],
-  "source": "Apple Reminders (populated by Scheduled/reminders-task-sync)",
+  "generated": "2026-08-29",
+  "window": [
+    "2026-08-29",
+    "2026-09-04"
+  ],
+  "source": "Apple Reminders (populated by Scheduled/reminders-task-sync) · groups carried; Reminders.app not available on this runner",
   "groups": [
     {
       "name": "Work",
       "items": [
-        {"due": "2026-08-10", "text": "Follow up with Michal Synowiec for Ethiopia full list"},
-        {"due": "2026-08-02", "text": "Short list and organize the LC outreach"},
-        {"due": "2026-08-02", "text": "Project Pipeline"},
-        {"due": "", "text": "Issue LC for Rox contract ($10.5M) — ASAP"},
-        {"due": "", "text": "Review + finalize BearArms RDX supply contract v0004"},
-        {"due": "", "text": "Get price for 122 propellants — Ethiopia"},
-        {"due": "", "text": "Tell Linpann Li the Uganda end-user type (trading co vs MOD)"},
-        {"due": "", "text": "Follow up Michel re: Ethiopia"},
-        {"due": "", "text": "Create a warehouse in Romania plan"},
-        {"due": "", "text": "Schedule call with Alex for update"},
-        {"due": "", "text": "Office space with Daljit"}
+        {
+          "due": "2026-08-10",
+          "text": "Follow up with Michal Synowiec for Ethiopia full list"
+        },
+        {
+          "due": "2026-08-02",
+          "text": "Short list and organize the LC outreach"
+        },
+        {
+          "due": "2026-08-02",
+          "text": "Project Pipeline"
+        },
+        {
+          "due": "",
+          "text": "Issue LC for Rox contract ($10.5M) — ASAP"
+        },
+        {
+          "due": "",
+          "text": "Review + finalize BearArms RDX supply contract v0004"
+        },
+        {
+          "due": "",
+          "text": "Get price for 122 propellants — Ethiopia"
+        },
+        {
+          "due": "",
+          "text": "Tell Linpann Li the Uganda end-user type (trading co vs MOD)"
+        },
+        {
+          "due": "",
+          "text": "Follow up Michel re: Ethiopia"
+        },
+        {
+          "due": "",
+          "text": "Create a warehouse in Romania plan"
+        },
+        {
+          "due": "",
+          "text": "Schedule call with Alex for update"
+        },
+        {
+          "due": "",
+          "text": "Office space with Daljit"
+        }
       ]
     },
     {
       "name": "Deals in flight",
       "items": [
-        {"due": "", "text": "Resolve missing wire — push SWIFT trace"},
-        {"due": "", "text": "Push SBLC / BAD deal (contract + HSBC verification)"},
-        {"due": "", "text": "Chase countersigned NCNDA (Gouveia Prime & BAD)"},
-        {"due": "", "text": "Provide POF to 'A' (DCo)"},
-        {"due": "", "text": "Reply to Marcin Wasilewski re budget + RDX next steps"},
-        {"due": "", "text": "Finish outstanding work on CIS ROBLO / SBLC contract docs"},
-        {"due": "", "text": "Verify SAM.gov registration renewal for Bear Arms Defense Corp"}
+        {
+          "due": "",
+          "text": "Resolve missing wire — push SWIFT trace"
+        },
+        {
+          "due": "",
+          "text": "Push SBLC / BAD deal (contract + HSBC verification)"
+        },
+        {
+          "due": "",
+          "text": "Chase countersigned NCNDA (Gouveia Prime & BAD)"
+        },
+        {
+          "due": "",
+          "text": "Provide POF to 'A' (DCo)"
+        },
+        {
+          "due": "",
+          "text": "Reply to Marcin Wasilewski re budget + RDX next steps"
+        },
+        {
+          "due": "",
+          "text": "Finish outstanding work on CIS ROBLO / SBLC contract docs"
+        },
+        {
+          "due": "",
+          "text": "Verify SAM.gov registration renewal for Bear Arms Defense Corp"
+        }
       ]
     },
     {
       "name": "Money",
       "items": [
-        {"due": "2026-08-03", "text": "Pay Barclaycard eBill ($43.46)"},
-        {"due": "2026-08-03", "text": "Pay Citi Advantage Card"},
-        {"due": "2026-08-07", "text": "Pay Barclaycard (ending 1996) — missed payment + new eBill"},
-        {"due": "2026-06-15", "text": "Review Bank of America 'immediate action needed' business alert"},
-        {"due": "", "text": "Pay Apple Card"},
-        {"due": "", "text": "Pay BofA business credit card accounts"},
-        {"due": "", "text": "Pay Google account for BAD"},
-        {"due": "", "text": "T-Mobile bill is ready"},
-        {"due": "", "text": "Respond to Intrum debt notice (Vodafone Portugal, ref E25681433)"},
-        {"due": "", "text": "Follow up SIXT Portugal failed toll payment"},
-        {"due": "", "text": "Close C4 and RDX subscriptions this week"}
+        {
+          "due": "2026-08-03",
+          "text": "Pay Barclaycard eBill ($43.46)"
+        },
+        {
+          "due": "2026-08-03",
+          "text": "Pay Citi Advantage Card"
+        },
+        {
+          "due": "2026-08-07",
+          "text": "Pay Barclaycard (ending 1996) — missed payment + new eBill"
+        },
+        {
+          "due": "2026-06-15",
+          "text": "Review Bank of America 'immediate action needed' business alert"
+        },
+        {
+          "due": "",
+          "text": "Pay Apple Card"
+        },
+        {
+          "due": "",
+          "text": "Pay BofA business credit card accounts"
+        },
+        {
+          "due": "",
+          "text": "Pay Google account for BAD"
+        },
+        {
+          "due": "",
+          "text": "T-Mobile bill is ready"
+        },
+        {
+          "due": "",
+          "text": "Respond to Intrum debt notice (Vodafone Portugal, ref E25681433)"
+        },
+        {
+          "due": "",
+          "text": "Follow up SIXT Portugal failed toll payment"
+        },
+        {
+          "due": "",
+          "text": "Close C4 and RDX subscriptions this week"
+        }
       ]
     },
     {
       "name": "People to come back to",
       "items": [
-        {"due": "", "text": "Reply to Kate re apartment choice; call grandad about guarantor"},
-        {"due": "", "text": "Call Morris Daccache this morning"},
-        {"due": "", "text": "Send Jesus Hernandez his letter (EDD claim)"},
-        {"due": "", "text": "Reply to +1 310 745 9915 re projects/payment question"},
-        {"due": "", "text": "Peter Cornell"},
-        {"due": "", "text": "Ed Keebler"},
-        {"due": "", "text": "Dean Shalit"},
-        {"due": "", "text": "Lawrence Vavra"},
-        {"due": "", "text": "Peter Lamden"}
+        {
+          "due": "",
+          "text": "Reply to Kate re apartment choice; call grandad about guarantor"
+        },
+        {
+          "due": "",
+          "text": "Call Morris Daccache this morning"
+        },
+        {
+          "due": "",
+          "text": "Send Jesus Hernandez his letter (EDD claim)"
+        },
+        {
+          "due": "",
+          "text": "Reply to +1 310 745 9915 re projects/payment question"
+        },
+        {
+          "due": "",
+          "text": "Peter Cornell"
+        },
+        {
+          "due": "",
+          "text": "Ed Keebler"
+        },
+        {
+          "due": "",
+          "text": "Dean Shalit"
+        },
+        {
+          "due": "",
+          "text": "Lawrence Vavra"
+        },
+        {
+          "due": "",
+          "text": "Peter Lamden"
+        }
       ]
     },
     {
       "name": "Personal",
       "items": [
-        {"due": "", "text": "Amazon-order a fan for Bear's room"},
-        {"due": "", "text": "Buy new reMarkable mini tablet"},
-        {"due": "", "text": "Book dentist in the UK"},
-        {"due": "", "text": "Finish email import"},
-        {"due": "", "text": "Redo website with Claude"}
+        {
+          "due": "",
+          "text": "Amazon-order a fan for Bear's room"
+        },
+        {
+          "due": "",
+          "text": "Buy new reMarkable mini tablet"
+        },
+        {
+          "due": "",
+          "text": "Book dentist in the UK"
+        },
+        {
+          "due": "",
+          "text": "Finish email import"
+        },
+        {
+          "due": "",
+          "text": "Redo website with Claude"
+        }
       ]
     }
   ],
   "sport": [
-    {"date": "2026-08-30", "tag": "Golf", "text": "TOUR Championship — final round, FedExCup finale",
-     "where": "East Lake Golf Club, Atlanta", "note": "Runs Thu 27 – Sun 30 Aug"},
-    {"date": "2026-08-29", "tag": "UFC", "text": "UFC Fight Night: Umar Nurmagomedov vs Song Yadong",
-     "where": "Oriental Sports Center, Shanghai", "note": "Bantamweight main event"},
-    {"date": "2026-08-30", "tag": "MotoGP", "text": "Aragón Grand Prix — race day",
-     "where": "MotorLand Aragón, Spain", "note": "Round 13; track action from Fri 28 Aug"},
-    {"date": "2026-08-30", "tag": "Tennis", "text": "US Open — main draw begins",
-     "where": "Flushing Meadows, New York", "note": "Runs to 13 Sep; qualifying finished 28 Aug"},
-    {"date": "2026-09-04", "tag": "F1", "text": "No race this week — Italian GP starts Fri 4 Sep",
-     "where": "Monza", "note": "Dutch GP was 23 Aug; race day Sun 6 Sep"},
-    {"date": "", "tag": "Boxing", "text": "No card confirmed for this window",
-     "where": "", "note": "Schedules this far out weren't published — worth a manual check"}
+    {
+      "date": "",
+      "tag": "UFC",
+      "text": "No dated UFC card verified for this window",
+      "where": "",
+      "note": "Named source did not yield a dated item."
+    },
+    {
+      "date": "",
+      "tag": "Tennis",
+      "text": "No dated Tennis card verified for this window",
+      "where": "",
+      "note": "Named source did not yield a dated item."
+    },
+    {
+      "date": "",
+      "tag": "Golf",
+      "text": "No dated Golf card verified for this window",
+      "where": "",
+      "note": "Named source did not yield a dated item."
+    },
+    {
+      "date": "",
+      "tag": "MotoGP",
+      "text": "Evans holds third place at chaotic Rally Paraguay",
+      "where": "",
+      "note": "World Rally Championship leader Elfyn Evans sits in third place after a dramatic opening day of Rally Paraguay, while Josh McErlean is fifth."
+    },
+    {
+      "date": "2026-08-29",
+      "tag": "F1",
+      "text": "Slow start makes me want to stay - Norris extends McLaren deal to 2030",
+      "where": "",
+      "note": "In an exclusive BBC Sport interview, Lando Norris explains why he has signed a new contract that will keep him at McLaren until at least the end of 2030."
+    },
+    {
+      "date": "",
+      "tag": "Boxing",
+      "text": "No dated Boxing card verified for this window",
+      "where": "",
+      "note": "Named source did not yield a dated item."
+    }
   ],
   "holidays": [
-    {"date": "2026-08-31", "text": "Summer Bank Holiday (UK — England, Wales, NI)"},
-    {"date": "2026-09-07", "text": "Labor Day (US) — just outside the window"}
+    {
+      "date": "2026-08-31",
+      "text": "Summer Bank Holiday (UK)"
+    },
+    {
+      "date": "2026-09-07",
+      "text": "Labor Day (US)"
+    }
   ],
   "travel": [
-    {"level": "watch", "text": "Invest 96L, likely to be named Dolly, sits between Cabo Verde and the Windward Islands. Shear is forecast to stall it from 28 Aug. No Florida threat."},
-    {"level": "active", "text": "Orlando MCO running afternoon thunderstorm ground stops — arrivals 35–62 min late, departures ~15 min and rising. Peak disruption 3–11pm ET."},
-    {"level": "watch", "text": "Tropical Storm Moke bringing heavy rain to Hawaii."},
-    {"level": "active", "text": "European ATC strikes and staffing shortages have been causing rolling delays across major hubs through August."}
+    {
+      "level": "active",
+      "text": "Atlantic Tropical Weather Outlook — 219 ABNT20 KNHC 291738 TWOAT Tropical Weather Outlook NWS National Hurricane Center Miami FL 200 PM EDT Sat Aug 29 2026 For the North Atlantic...Caribbean Sea and the Gulf of America: East of the Leeward Islands (Remnants of Dolly): Disorganize"
+    },
+    {
+      "level": "watch",
+      "text": "There are no tropical cyclones at this time. — No tropical cyclones as of Sat, 29 Aug 2026 19:16:52 GMT"
+    },
+    {
+      "level": "active",
+      "text": "Eastern North Pacific Tropical Weather Outlook — 000 ABPZ20 KNHC 291727 TWOEP Tropical Weather Outlook NWS National Hurricane Center Miami FL 1100 AM PDT Sat Aug 29 2026 For the eastern and central North Pacific east of 180 longitude: Active Systems: The National Hurricane Center"
+    },
+    {
+      "level": "active",
+      "text": "Summary for Tropical Storm Karina (EP1/EP112026) — ...KARINA MAINTAINS INTENSITY AS IT MOVES NORTHWESTWARD OVER THE PACIFIC OCEAN... As of 8:00 AM PDT Sat Aug 29 the center of Karina was located near 15.6, -117.6 with movement NW at 12 mph. The minimum central pressure was 989 mb"
+    },
+    {
+      "level": "active",
+      "text": "Tropical Storm Karina Public Advisory Number 8 — Issued at 800 AM PDT Sat Aug 29 2026 000 WTPZ31 KNHC 291433 TCPEP1 BULLETIN Tropical Storm Karina Advisory Number 8 NWS National Hurricane Center Miami FL EP112026 800 AM PDT Sat Aug 29 2026 ...KARINA MAINTAINS INTENSITY AS IT MOVE"
+    }
   ],
   "key_dates": [
-    {"date": "04-04", "text": "Eliza — birthday"},
-    {"date": "04-04", "text": "Claire — birthday"}
+    {
+      "date": "04-04",
+      "text": "Eliza — birthday"
+    },
+    {
+      "date": "04-04",
+      "text": "Claire — birthday"
+    }
   ],
-  "sweep": {"open_total": 77, "real_tasks": 13, "untriaged_fragments": 64}
+  "sweep": {
+    "open_total": 77,
+    "real_tasks": 13,
+    "untriaged_fragments": 64
+  }
 }
