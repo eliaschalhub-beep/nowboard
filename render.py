@@ -71,6 +71,7 @@ hol2 = "".join(
     f'<span class="due{" soon" if 0 <= (datetime.date.fromisoformat(h["date"])-today).days <= 6 else ""}">'
     f'{dlabel(h["date"])}</span></li>' for h in d["holidays"])
 
+goals = "".join(f'<li><span class="t">{html.escape(g["text"])}</span></li>' for g in d.get("goals", []))
 kd = "".join(f'<li><span class="t">{html.escape(k["text"])}</span>'
              f'<span class="due">{k["date"]}</span></li>' for k in d["key_dates"])
 sw = d["sweep"]
@@ -143,6 +144,8 @@ Nothing here is sample data.</p>
 </div>
 </header>
 <div class="cols">
+<section class="block"><div class="bh"><h2>Goals</h2><span class="count">standing</span></div>
+<ul class="list">{goals}</ul></section>
 {''.join(blocks)}
 <section class="block"><div class="bh"><h2>Key dates</h2><span class="count">year-round</span></div>
 <ul class="list">{kd}</ul></section>

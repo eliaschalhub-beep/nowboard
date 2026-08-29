@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { buildNowboard, REQUIRED_SPORT_TAGS, REQUIRED_GROUPS } from "./lib/build-nowboard.mjs";
+import { buildNowboard, REQUIRED_SPORT_TAGS, REQUIRED_GROUPS, DEFAULT_GOALS } from "./lib/build-nowboard.mjs";
 import { groupsFromReminders, isFragment } from "./lib/reminders.mjs";
 
 const previous = JSON.parse(await readFile(new URL("../data/nowboard.json", import.meta.url), "utf8"));
@@ -60,6 +60,8 @@ for (const tag of REQUIRED_SPORT_TAGS) {
 assert.ok(board.holidays.some((h) => h.date === "2026-08-31"));
 assert.ok(board.travel.length >= 1);
 assert.ok(Array.isArray(board.key_dates));
+assert.deepEqual(board.goals.map((g) => g.text), DEFAULT_GOALS.map((g) => g.text));
+assert.equal(board.goals.every((g) => Object.keys(g).join() === "text"), true);
 assert.doesNotMatch(JSON.stringify(board), /Claude cloud/i);
 assert.match(board.source, /Reminders/);
 

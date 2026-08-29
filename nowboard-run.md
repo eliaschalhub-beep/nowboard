@@ -1,6 +1,6 @@
 # Nowboard run — one git, one GitHub Action, one Netlify
 
-There is a single Nowboard job. It lives in this repository and runs as GitHub Actions. Reminders, key dates, holidays, sport, and weather/travel run together.
+There is a single Nowboard job. It lives in this repository and runs as GitHub Actions. Reminders, standing goals, key dates, holidays, sport, and weather/travel run together.
 
 - **Git:** `eliaschalhub-beep/nowboard` (`main`)
 - **Netlify:** `https://nowboard.netlify.app/`
@@ -28,15 +28,19 @@ This job does not sweep mail or messages. The sibling reminders-task-sync pipeli
 
 On GitHub Actions there is no Reminders.app. Carry the last `groups` and `sweep` and say so in `source`.
 
-## 2. Key dates
+## 2. Goals
+
+Keep `goals` from the feed. Standing list. No tracking, no dates, no checkboxes. Do not invent goals.
+
+## 3. Key dates
 
 Keep `key_dates` from the feed. Year-round. Do not invent people.
 
-## 3. Holidays, sport, travel
+## 4. Holidays, sport, travel
 
 Refresh UK and US holidays, sport (UFC, tennis, golf, MotoGP, F1, boxing), and weather/travel from named dated sources for today through +6 days. If nothing dated is verified, keep the desk and print that.
 
-## 4. Render
+## 5. Render
 
 ```sh
 npm run nowboard
@@ -46,6 +50,6 @@ Writes `data/nowboard.json`, then `python3 render.py` writes `index.html`.
 
 If those files changed, commit and push `main` so Netlify deploys the full GitHub tree. That is the only git write this job may make.
 
-## 5. Stop
+## 6. Stop
 
 Do not run `netlify deploy` from a folder. Do not edit the gate. Do not message the owner. The product is the live site.

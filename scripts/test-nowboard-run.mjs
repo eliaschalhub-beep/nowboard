@@ -32,6 +32,8 @@ assert.match(runner, /render\.py/);
 assert.doesNotMatch(runner, /netlify deploy/);
 assert.match(render, /data.*nowboard\.json/);
 assert.match(render, /index\.html/);
+assert.match(render, /Goals/);
+assert.doesNotMatch(render, /checkbox|streak|progress/i);
 assert.doesNotMatch(render, /netlify deploy/);
 
 assert.match(run, /data\/nowboard\.json/);

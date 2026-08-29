@@ -3,6 +3,12 @@ import { groupsFromReminders } from "./reminders.mjs";
 
 export const REQUIRED_SPORT_TAGS = ["UFC", "Tennis", "Golf", "MotoGP", "F1", "Boxing"];
 export const REQUIRED_GROUPS = ["Work", "Deals in flight", "Money", "People to come back to", "Personal"];
+export const DEFAULT_GOALS = [
+  { text: "Learn Arabic 30 minutes" },
+  { text: "Play guitar 30 minutes" },
+  { text: "Express Love to Family" },
+  { text: "Learn how to type" },
+];
 
 const SPORT_FEEDS = [
   { tag: "UFC", url: "https://www.espn.com/espn/rss/mma/news" },
@@ -111,7 +117,7 @@ export async function buildNowboard({
     sweep = next.sweep;
     source = "Apple Reminders (populated by reminders-task-sync)";
   } else {
-    source = `${source} · groups carried; Reminders.app not available on this runner`;
+    source = "Apple Reminders · groups carried; Reminders.app not available on this runner";
   }
 
   const byName = Object.fromEntries((groups || []).map((group) => [group.name, group]));
@@ -130,6 +136,7 @@ export async function buildNowboard({
     holidays: holidays.length ? holidays : (previous.holidays || []).map((row) => ({ ...row })),
     travel,
     key_dates: Array.isArray(previous.key_dates) ? previous.key_dates : [],
+    goals: previous.goals?.length ? previous.goals.map((row) => ({ text: row.text })) : DEFAULT_GOALS.map((row) => ({ ...row })),
     sweep,
   };
 }
