@@ -1,0 +1,40 @@
+name: Nowboard run
+
+on:
+  schedule:
+    - cron: "30 6,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  nowboard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: npm test
+      - name: Refresh board data and render
+        run: npm run nowboard
+      - name: Commit board if it changed
+        run: |
+          git add -- data/nowboard.json index.html nowboard.html || true
+          if git diff --cached --quiet; then
+            echo "No git write"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "$(cat <<'EOF'
+Refresh Nowboard data and rendered page.
+
+EOF
+)"
+          git push

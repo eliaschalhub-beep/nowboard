@@ -1,0 +1,9 @@
+{
+  "name": "nowboard",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/test-nowboard-run.mjs && node scripts/test-build-nowboard.mjs",
+    "nowboard": "node scripts/nowboard-run.mjs",
+    "render": "python3 render.py"
+  }
+}
