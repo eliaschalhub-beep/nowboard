@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-29",
+  "generated": "2026-08-30",
   "window": [
-    "2026-08-29",
-    "2026-09-04"
+    "2026-08-30",
+    "2026-09-05"
   ],
-  "source": "Apple Reminders (populated by Scheduled/reminders-task-sync) · groups carried; Reminders.app not available on this runner · groups carried; Reminders.app not available on this runner · groups carried; Reminders.app not available on this runner",
+  "source": "Apple Reminders · groups carried; Reminders.app not available on this runner",
   "groups": [
     {
       "name": "Work",
@@ -234,7 +234,7 @@
       "note": "World Rally Championship leader Elfyn Evans sits in third place after a dramatic opening day of Rally Paraguay, while Josh McErlean is fifth."
     },
     {
-      "date": "2026-08-29",
+      "date": "",
       "tag": "F1",
       "text": "Slow start makes me want to stay - Norris extends McLaren deal to 2030",
       "where": "",
@@ -261,30 +261,24 @@
   "travel": [
     {
       "level": "active",
-      "text": "Atlantic Tropical Weather Outlook — 219 ABNT20 KNHC 291738 TWOAT Tropical Weather Outlook NWS National Hurricane Center Miami FL 200 PM EDT Sat Aug 29 2026 For the North Atlantic...Caribbean Sea and the Gulf of America: East of the Leeward Islands (Remnants of Dolly): Disorganize"
+      "text": "Atlantic Tropical Weather Outlook — 193 ABNT20 KNHC 301136 TWOAT Tropical Weather Outlook NWS National Hurricane Center Miami FL 800 AM EDT Sun Aug 30 2026 For the North Atlantic...Caribbean Sea and the Gulf of America: East of the Leeward Islands (Remnants of Dolly): A strong tr"
     },
     {
       "level": "watch",
-      "text": "There are no tropical cyclones at this time. — No tropical cyclones as of Sat, 29 Aug 2026 19:33:21 GMT"
+      "text": "There are no tropical cyclones at this time. — No tropical cyclones as of Sun, 30 Aug 2026 11:53:40 GMT"
     },
     {
       "level": "active",
-      "text": "Eastern North Pacific Tropical Weather Outlook — 000 ABPZ20 KNHC 291727 TWOEP Tropical Weather Outlook NWS National Hurricane Center Miami FL 1100 AM PDT Sat Aug 29 2026 For the eastern and central North Pacific east of 180 longitude: Active Systems: The National Hurricane Center"
+      "text": "Eastern North Pacific Tropical Weather Outlook — 000 ABPZ20 KNHC 301134 TWOEP Tropical Weather Outlook NWS National Hurricane Center Miami FL 500 AM PDT Sun Aug 30 2026 For the eastern and central North Pacific east of 180 longitude: Active Systems: The National Hurricane Center "
     },
     {
       "level": "active",
-      "text": "Summary for Tropical Storm Karina (EP1/EP112026) — ...KARINA MAINTAINS INTENSITY AS IT MOVES NORTHWESTWARD OVER THE PACIFIC OCEAN... As of 8:00 AM PDT Sat Aug 29 the center of Karina was located near 15.6, -117.6 with movement NW at 12 mph. The minimum central pressure was 989 mb"
+      "text": "Summary for Hurricane Karina (EP1/EP112026) — ...KARINA BECOMES A HURRICANE... ...EXPECTED TO CONTINUE TO GAIN STRENGTH... As of 2:00 AM PDT Sun Aug 30 the center of Karina was located near 17.3, -121.1 with movement WNW at 15 mph. The minimum central pressure was 980 mb with max"
     },
     {
       "level": "active",
-      "text": "Tropical Storm Karina Public Advisory Number 8 — Issued at 800 AM PDT Sat Aug 29 2026 000 WTPZ31 KNHC 291433 TCPEP1 BULLETIN Tropical Storm Karina Advisory Number 8 NWS National Hurricane Center Miami FL EP112026 800 AM PDT Sat Aug 29 2026 ...KARINA MAINTAINS INTENSITY AS IT MOVE"
+      "text": "Hurricane Karina Public Advisory Number 11 — Issued at 200 AM PDT Sun Aug 30 2026 607 WTPZ31 KNHC 300832 TCPEP1 BULLETIN Hurricane Karina Advisory Number 11 NWS National Hurricane Center Miami FL EP112026 200 AM PDT Sun Aug 30 2026 ...KARINA BECOMES A HURRICANE... ...EXPECTED TO "
     }
-  ],
-  "goals": [
-    {"text": "Learn Arabic 30 minutes"},
-    {"text": "Play guitar 30 minutes"},
-    {"text": "Express Love to Family"},
-    {"text": "Learn how to type"}
   ],
   "key_dates": [
     {
@@ -294,6 +288,20 @@
     {
       "date": "04-04",
       "text": "Claire — birthday"
+    }
+  ],
+  "goals": [
+    {
+      "text": "Learn Arabic 30 minutes"
+    },
+    {
+      "text": "Play guitar 30 minutes"
+    },
+    {
+      "text": "Express Love to Family"
+    },
+    {
+      "text": "Learn how to type"
     }
   ],
   "sweep": {
