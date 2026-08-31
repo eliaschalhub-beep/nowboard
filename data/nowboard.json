@@ -1,37 +1,17 @@
 {
-  "generated": "2026-08-30",
+  "generated": "2026-08-31",
   "window": [
-    "2026-08-30",
-    "2026-09-05"
+    "2026-08-31",
+    "2026-09-06"
   ],
-  "source": "Apple Reminders · groups carried; Reminders.app not available on this runner",
+  "source": "Apple Reminders (populated by reminders-task-sync)",
   "groups": [
     {
       "name": "Work",
       "items": [
         {
-          "due": "2026-08-10",
-          "text": "Follow up with Michal Synowiec for Ethiopia full list"
-        },
-        {
-          "due": "2026-08-02",
-          "text": "Short list and organize the LC outreach"
-        },
-        {
-          "due": "2026-08-02",
-          "text": "Project Pipeline"
-        },
-        {
           "due": "",
-          "text": "Issue LC for Rox contract ($10.5M) — ASAP"
-        },
-        {
-          "due": "",
-          "text": "Review + finalize BearArms RDX supply contract v0004"
-        },
-        {
-          "due": "",
-          "text": "Get price for 122 propellants — Ethiopia"
+          "text": "Schedule call with Alex for Update"
         },
         {
           "due": "",
@@ -39,19 +19,11 @@
         },
         {
           "due": "",
-          "text": "Follow up Michel re: Ethiopia"
+          "text": "Follow up with Michal Synowiec for Ethiopia full list"
         },
         {
           "due": "",
-          "text": "Create a warehouse in Romania plan"
-        },
-        {
-          "due": "",
-          "text": "Schedule call with Alex for update"
-        },
-        {
-          "due": "",
-          "text": "Office space with Daljit"
+          "text": "Phone queue survives index rebuild"
         }
       ]
     },
@@ -92,20 +64,20 @@
       "name": "Money",
       "items": [
         {
-          "due": "2026-08-03",
-          "text": "Pay Barclaycard eBill ($43.46)"
+          "due": "",
+          "text": "T-Mobile bill is ready"
         },
         {
-          "due": "2026-08-03",
-          "text": "Pay Citi Advantage Card"
+          "due": "",
+          "text": "Review Bank of America 'immediate action needed' business account alert"
         },
         {
-          "due": "2026-08-07",
-          "text": "Pay Barclaycard (ending 1996) — missed payment + new eBill"
+          "due": "",
+          "text": "Pay The Moment Health invoice #4AD023E7-0004"
         },
         {
-          "due": "2026-06-15",
-          "text": "Review Bank of America 'immediate action needed' business alert"
+          "due": "",
+          "text": "Pay Dani Raqueza"
         },
         {
           "due": "",
@@ -113,48 +85,27 @@
         },
         {
           "due": "",
-          "text": "Pay BofA business credit card accounts"
+          "text": "Pay BofA Business Crediyt Card Accounts"
         },
         {
           "due": "",
-          "text": "Pay Google account for BAD"
+          "text": "Pay Citi Advantage Card"
         },
         {
           "due": "",
-          "text": "T-Mobile bill is ready"
+          "text": "Pay Google Account for BAD"
         },
         {
           "due": "",
-          "text": "Respond to Intrum debt notice (Vodafone Portugal, ref E25681433)"
+          "text": "Follow on SIXT Portugal failed toll payment"
         },
         {
           "due": "",
-          "text": "Follow up SIXT Portugal failed toll payment"
+          "text": "Pay Barclaycard eBill ($43.46)"
         },
         {
           "due": "",
-          "text": "Close C4 and RDX subscriptions this week"
-        }
-      ]
-    },
-    {
-      "name": "People to come back to",
-      "items": [
-        {
-          "due": "",
-          "text": "Reply to Kate re apartment choice; call grandad about guarantor"
-        },
-        {
-          "due": "",
-          "text": "Call Morris Daccache this morning"
-        },
-        {
-          "due": "",
-          "text": "Send Jesus Hernandez his letter (EDD claim)"
-        },
-        {
-          "due": "",
-          "text": "Reply to +1 310 745 9915 re projects/payment question"
+          "text": "Pay The Moment Health invoices ($325 + $90) — card declined"
         },
         {
           "due": "",
@@ -174,32 +125,24 @@
         },
         {
           "due": "",
+          "text": "Will’s Guy"
+        },
+        {
+          "due": "",
           "text": "Peter Lamden"
         }
       ]
+    },
+    {
+      "name": "People to come back to",
+      "items": []
     },
     {
       "name": "Personal",
       "items": [
         {
           "due": "",
-          "text": "Amazon-order a fan for Bear's room"
-        },
-        {
-          "due": "",
-          "text": "Buy new reMarkable mini tablet"
-        },
-        {
-          "due": "",
-          "text": "Book dentist in the UK"
-        },
-        {
-          "due": "",
-          "text": "Finish email import"
-        },
-        {
-          "due": "",
-          "text": "Redo website with Claude"
+          "text": "Dentist in UK for Bottom Teeth"
         }
       ]
     }
@@ -208,26 +151,26 @@
     {
       "date": "",
       "tag": "UFC",
-      "text": "No dated UFC card verified for this window",
+      "text": "MMA pound-for-pound rankings: Cris Cyborg not finished making an impact",
       "where": "",
-      "note": "Named source did not yield a dated item."
+      "note": "At age 41, PFL women's featherweight champion continues win streak to secure spot in ESPN P4P top 10."
     },
     {
-      "date": "",
+      "date": "2026-08-31",
       "tag": "Tennis",
-      "text": "No dated Tennis card verified for this window",
+      "text": "What went wrong for Novak Djokovic at the US Open",
       "where": "",
-      "note": "Named source did not yield a dated item."
+      "note": "On Sunday night, Novak Djokovic was upset by Mariano Navone in the first round of the US Open. What happened -- and what it means for the tournament."
+    },
+    {
+      "date": "2026-08-31",
+      "tag": "Golf",
+      "text": "Tour Championship 2026: Top moments as Scottie Scheffler earns the victory",
+      "where": "",
+      "note": "The Tour Championship concluded on Sunday with Scottie Scheffler winning. Here are all the best moments from his victory."
     },
     {
       "date": "",
-      "tag": "Golf",
-      "text": "No dated Golf card verified for this window",
-      "where": "",
-      "note": "Named source did not yield a dated item."
-    },
-    {
-      "date": "2026-08-30",
       "tag": "MotoGP",
       "text": "Pajari makes history as he cuts Evans' WRC lead",
       "where": "",
@@ -243,9 +186,9 @@
     {
       "date": "",
       "tag": "Boxing",
-      "text": "No dated Boxing card verified for this window",
+      "text": "Key takeaways: Cameron-Mayer rematch? Dubois sets up unification bout",
       "where": "",
-      "note": "Named source did not yield a dated item."
+      "note": "ESPN breaks down the main takeaways from Chantelle Cameron's win over Mikaela Mayer, as well as Caroline Dubois' dominant victory"
     }
   ],
   "holidays": [
@@ -261,23 +204,23 @@
   "travel": [
     {
       "level": "active",
-      "text": "Atlantic Tropical Weather Outlook — 000 ABNT20 KNHC 301828 CCA TWOAT Tropical Weather Outlook...Corrteced NWS National Hurricane Center Miami FL 200 PM EDT Sun Aug 30 2026 Correct low chance to medium chance for the Gulf system For the North Atlantic...Caribbean Sea and the Gulf "
+      "text": "Atlantic Tropical Weather Outlook — 000 ABNT20 KNHC 310531 TWOAT Tropical Weather Outlook NWS National Hurricane Center Miami FL 200 AM EDT Mon Aug 31 2026 For the North Atlantic...Caribbean Sea and the Gulf of America: Northern Gulf of America (AL97): An area of low pressure ove"
     },
     {
       "level": "watch",
-      "text": "There are no tropical cyclones at this time. — No tropical cyclones as of Sun, 30 Aug 2026 21:22:48 GMT"
+      "text": "There are no tropical cyclones at this time. — No tropical cyclones as of Mon, 31 Aug 2026 06:40:05 GMT"
     },
     {
       "level": "active",
-      "text": "Eastern North Pacific Tropical Weather Outlook — 000 ABPZ20 KNHC 301732 TWOEP Tropical Weather Outlook NWS National Hurricane Center Miami FL 1100 AM PDT Sun Aug 30 2026 For the eastern and central North Pacific east of 180 longitude: Active Systems: The National Hurricane Center"
+      "text": "Eastern North Pacific Tropical Weather Outlook — 000 ABPZ20 KNHC 310522 TWOEP Tropical Weather Outlook NWS National Hurricane Center Miami FL 1100 PM PDT Sun Aug 30 2026 For the eastern and central North Pacific east of 180 longitude: Active Systems: The National Hurricane Center"
     },
     {
       "level": "active",
-      "text": "Summary for Hurricane Karina (EP1/EP112026) — ...KARINA GAINING STRENGTH AND MOVING OVER THE PACIFIC OCEAN... As of 2:00 PM PDT Sun Aug 30 the center of Karina was located near 17.2, -123.2 with movement W at 9 mph. The minimum central pressure was 978 mb with maximum sustained w"
+      "text": "Summary for Hurricane Karina (EP1/EP112026) — ...MAJOR HURRICANE KARINA MOVING WESTWARD... As of 5:00 PM HST Sun Aug 30 the center of Karina was located near 17.1, -123.8 with movement W at 9 mph. The minimum central pressure was 954 mb with maximum sustained winds of about 125 m"
     },
     {
       "level": "active",
-      "text": "Hurricane Karina Public Advisory Number 13 — Issued at 200 PM PDT Sun Aug 30 2026 585 WTPZ31 KNHC 302049 TCPEP1 BULLETIN Hurricane Karina Advisory Number 13 NWS National Hurricane Center Miami FL EP112026 200 PM PDT Sun Aug 30 2026 ...KARINA GAINING STRENGTH AND MOVING OVER THE P"
+      "text": "Hurricane Karina Public Advisory Number 15 — Issued at 500 PM HST Sun Aug 30 2026 000 WTPZ31 KNHC 310253 TCPEP1 BULLETIN Hurricane Karina Advisory Number 15 NWS National Hurricane Center Miami FL EP112026 500 PM HST Sun Aug 30 2026 ...MAJOR HURRICANE KARINA MOVING WESTWARD... SUM"
     }
   ],
   "key_dates": [
@@ -305,8 +248,8 @@
     }
   ],
   "sweep": {
-    "open_total": 77,
-    "real_tasks": 13,
-    "untriaged_fragments": 64
+    "open_total": 84,
+    "real_tasks": 80,
+    "untriaged_fragments": 4
   }
 }
