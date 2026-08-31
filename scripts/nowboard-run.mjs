@@ -1,5 +1,5 @@
 /**
- * Nowboard run — GitHub Actions in this repository, Netlify as the engine.
+ * Nowboard run — Mac launchd in this repository, Netlify as the engine.
  *
  * Writes data/nowboard.json and renders index.html. GitHub main is the
  * deploy. Not a folder deploy. Not a Claude scheduled task.

@@ -11,9 +11,9 @@ Private rolling 7-day board: https://nowboard.netlify.app/
 
 ## Nowboard run
 
-There is one Nowboard run, twice a day, owned by this git repository. GitHub Actions `.github/workflows/nowboard-run.yml` fires at **06:30 and 18:30 UTC** and runs `npm run nowboard`.
+There is one Nowboard job, twice a day, in the background on this Mac. launchd `com.eliaschalhub.nowboard` fires at **11:45** and **23:45** local — 30 minutes after the Reminders sweep — and runs `npm run nowboard`.
 
-It refreshes Reminders when the runner is a Mac, otherwise carries the last task groups, keeps the standing goals list, then holidays, sport, and weather/travel, then renders `index.html`.
+It reads Reminders and Calendar.app, keeps the standing goals list, then holidays, sport, and weather/travel, then renders `index.html`.
 
 See `nowboard-run.md` and `AGENTS.md`.
 
@@ -22,7 +22,7 @@ npm test
 npm run nowboard
 ```
 
-If the JSON or HTML changed, the Action commits `main` and Netlify deploys that tree. Do not publish by dragging a folder into Netlify.
+If the JSON or HTML changed, the job commits `main` and Netlify deploys that tree. Do not publish by dragging a folder into Netlify.
 
 ## Checks
 
@@ -30,4 +30,4 @@ If the JSON or HTML changed, the Action commits `main` and Netlify deploys that 
 npm test
 ```
 
-GitHub Actions runs the same suite on every scheduled run, and on `workflow_dispatch`.
+`workflow_dispatch` can rebuild tests. It is not the scheduler.

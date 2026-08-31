@@ -1,11 +1,10 @@
-# Nowboard run — one git, one GitHub Action, one Netlify
+# Nowboard run — one git, one Mac launchd job, one Netlify
 
-There is a single Nowboard job. It lives in this repository and runs as GitHub Actions. Reminders, standing goals, key dates, holidays, sport, and weather/travel run together.
+There is a single Nowboard job. It lives in this repository and runs in the background on this Mac, 30 minutes after the Reminders sweep. Reminders, standing goals (listed, not tracked), key dates, holidays, sport, and weather/travel run together.
 
 - **Git:** `eliaschalhub-beep/nowboard` (`main`)
 - **Netlify:** `https://nowboard.netlify.app/`
-- **Workflow:** `.github/workflows/nowboard-run.yml`
-- **When:** twice daily, 06:30 and 18:30 UTC (`cron: 30 6,18 * * *`) plus `workflow_dispatch`
+- **Job:** launchd `com.eliaschalhub.nowboard` at **11:45** and **23:45** local (30 minutes after `com.eliaschalhub.reminders-task-sync`)
 - **Command:** `npm run nowboard`
 
 Do the steps in order. If the refresh fails, stop. Do not deploy a partial site.
@@ -18,15 +17,13 @@ Do the steps in order. If the refresh fails, stop. Do not deploy a partial site.
 | Rendered page | git `index.html` | same git write |
 | Site HTML, fonts, functions, gate | git `main` | ordinary Netlify build from GitHub. Never `netlify deploy` from a folder |
 
-A laptop folder deploy is not how the board is published. GitHub `main` is the only deploy source.
+A laptop folder deploy is not how the board is published. GitHub `main` is the only deploy source. `workflow_dispatch` can rebuild tests; it is not the scheduler.
 
 ## 1. Reminders
 
-Read Apple Reminders when this job is on the Mac. Lists: Work, Work - Inbox, Claude, Personal Finance & Bills, Business FInance & Bills, Personal Inbox, Medical, General Inbox, To Do Sweep.
+Read Apple Reminders on this Mac. Lists: Work, Work - Inbox, Claude, Personal Finance & Bills, Business FInance & Bills, Personal Inbox, Medical, General Inbox, To Do Sweep.
 
-This job does not sweep mail or messages. The sibling reminders-task-sync pipeline fills those lists.
-
-On GitHub Actions there is no Reminders.app. Carry the last `groups` and `sweep` and say so in `source`.
+This job does not sweep mail or messages. The sibling reminders-task-sync pipeline fills those lists at 11:15 and 23:15. Nowboard waits 30 minutes, then reads the result.
 
 ## 2. Goals
 
