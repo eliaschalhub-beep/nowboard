@@ -1,10 +1,10 @@
-# Nowboard run — one git, one Mac launchd job, one Netlify
+# Nowboard run — one git, one site button, one Netlify
 
-There is a single Nowboard job. It lives in this repository and runs in the background on this Mac, 30 minutes after the Reminders sweep. Reminders, standing goals (listed, not tracked), key dates, holidays, sport, and weather/travel run together.
+There is a single Nowboard job. It starts from the Refresh button on the live board. No launchd. No cron.
 
 - **Git:** `eliaschalhub-beep/nowboard` (`main`)
 - **Netlify:** `https://nowboard.netlify.app/`
-- **Job:** launchd `com.eliaschalhub.nowboard` at **11:45** and **23:45** local (30 minutes after `com.eliaschalhub.reminders-task-sync`)
+- **Job:** Refresh button → `POST /refresh` → GitHub `workflow_dispatch` on `nowboard-run.yml`
 - **Command:** `npm run nowboard`
 
 Do the steps in order. If the refresh fails, stop. Do not deploy a partial site.
@@ -17,13 +17,15 @@ Do the steps in order. If the refresh fails, stop. Do not deploy a partial site.
 | Rendered page | git `index.html` | same git write |
 | Site HTML, fonts, functions, gate | git `main` | ordinary Netlify build from GitHub. Never `netlify deploy` from a folder |
 
-A laptop folder deploy is not how the board is published. GitHub `main` is the only deploy source. `workflow_dispatch` can rebuild tests; it is not the scheduler.
+A laptop folder deploy is not how the board is published. GitHub `main` is the only deploy source. The site button is the only trigger.
+
+`NOWBOARD_GITHUB_TOKEN` lives on the Netlify site, not in git. It must be able to `workflow_dispatch` `nowboard-run.yml`. Do not put it in the page.
 
 ## 1. Reminders
 
-Read Apple Reminders on this Mac. Lists: Work, Work - Inbox, Claude, Personal Finance & Bills, Business FInance & Bills, Personal Inbox, Medical, General Inbox, To Do Sweep.
+On GitHub the runner cannot open Reminders.app. Keep `groups` from the feed. Print that they were carried.
 
-This job does not sweep mail or messages. The sibling reminders-task-sync pipeline fills those lists at 11:15 and 23:15. Nowboard waits 30 minutes, then reads the result.
+On a Mac checkout, `npm run nowboard` may still read Apple Reminders if you run it by hand. Lists: Work, Work - Inbox, Claude, Personal Finance & Bills, Business FInance & Bills, Personal Inbox, Medical, General Inbox, To Do Sweep.
 
 ## 2. Goals
 
@@ -49,4 +51,4 @@ If those files changed, commit and push `main` so Netlify deploys the full GitHu
 
 ## 6. Stop
 
-Do not run `netlify deploy` from a folder. Do not edit the gate. Do not message the owner. The product is the live site.
+Do not run `netlify deploy` from a folder. Do not edit the gate. Do not add a timer. Do not message the owner. The product is the live site.

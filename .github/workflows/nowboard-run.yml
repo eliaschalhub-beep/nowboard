@@ -1,5 +1,6 @@
 name: Nowboard run
 
+# Started by the site Refresh button (POST /refresh). Not a schedule.
 on:
   workflow_dispatch:
 

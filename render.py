@@ -128,10 +128,12 @@ li.ev em.n{{opacity:.75}}
 .dot.active{{background:#b91c1c}} .dot.watch{{background:var(--org)}}
 footer{{border-top:1px solid var(--line);margin-top:36px;padding:26px 0 60px;color:var(--mut);font-size:13px}}
 footer b{{color:var(--ink)}}
+.refresh button{{font-size:12px;border:0;border-radius:999px;padding:5px 14px;background:#111;color:#fff;cursor:pointer}}
 </style></head><body>
 <nav class="nav"><span class="brand">Nowboard</span><span class="sp"></span>
 <span class="pill">{fmt(today)} – {fmt(end)}</span>
-<span class="pill">Apple Reminders</span></nav>
+<span class="pill">Apple Reminders</span>
+<form class="refresh" method="POST" action="/refresh"><button type="submit">Refresh</button></form></nav>
 <div class="wrap">
 <header>
 <h1>This week, swept.</h1>

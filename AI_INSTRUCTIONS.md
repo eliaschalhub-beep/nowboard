@@ -103,7 +103,7 @@ Git is CodeBank. Sites are Netlify. Dropbox holds support data only.
 | --- | --- | --- | --- |
 | Life Dashboard (`eg-life-dashboard`) | `~/Claude Hub/CodeBank/eg-life-dashboard` | `/Life-Dashboard-support` | Morning run: `.github/workflows/morning-run.yml`. Relocate tab is here. `systems.json` on `main` as of 30 Aug evening. |
 | The Daily | same repo / sister site | — | Published by the morning run. |
-| Nowboard | `~/Claude Hub/CodeBank/nowboard` | `/Nowboard` exports only | launchd `com.eliaschalhub.nowboard` at **11:45 and 23:45**. GitHub Actions is not the scheduler. |
+| Nowboard | `~/Claude Hub/CodeBank/nowboard` | `/Nowboard` exports only | Refresh button on the site. No launchd. No cron. |
 | Shopr / purchasingforus | `~/Claude Hub/CodeBank/purchasingforus` | `/Shopr` exports only | Live catalog is Netlify Postgres. |
 | beararmsdefense.net | CodeBank / Netlify | — | Forms enabled. |
 | deznr | Netlify | — | Live, password-gated. |
@@ -125,7 +125,6 @@ Loaded plists under `~/Library/LaunchAgents`. Scripts and logs belong on Dropbox
 | `com.eliaschalhub.sweep-imessage` | iMessage sweep | Keep |
 | `com.eliaschalhub.messages-archiver` | writes Dropbox `messages_master.db` | launchd. Reads iMessage / WhatsApp / Signal. No Desktop trigger. |
 | `com.eliaschalhub.reminders-task-sync` | Files actions into Reminders “To Do Sweep” | **launchd at 11:15 and 23:15.** Not ChatGPT. Ledger + log on Dropbox. |
-| `com.eliaschalhub.nowboard` | Nowboard refresh | **launchd at 11:45 and 23:45** (30 min after Reminders). CodeBank/nowboard. |
 | `com.eliasc.claudehub-archiver` | Daily archive to Drive | Keep |
 | `com.eliaschalhub.agent-watch` | Checks the others every 30 min | `Hub-local/Logs/agent-watch/` |
 | `com.eliasc.keepr.paddleocr-vl` | Keepr OCR | Keep |

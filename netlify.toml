@@ -5,6 +5,10 @@
   path = "/*"
   function = "gate"
 
+[[edge_functions]]
+  path = "/refresh"
+  function = "refresh"
+
 [[headers]]
   for = "/*"
   [headers.values]

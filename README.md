@@ -11,9 +11,9 @@ Private rolling 7-day board: https://nowboard.netlify.app/
 
 ## Nowboard run
 
-There is one Nowboard job, twice a day, in the background on this Mac. launchd `com.eliaschalhub.nowboard` fires at **11:45** and **23:45** local — 30 minutes after the Reminders sweep — and runs `npm run nowboard`.
+There is one Nowboard job. The Refresh button on the site starts it. There is no launchd job and no cron.
 
-It reads Reminders and Calendar.app, keeps the standing goals list, then holidays, sport, and weather/travel, then renders `index.html`.
+It keeps the standing goals list and carried Reminders groups, then holidays, sport, and weather/travel, then renders `index.html`.
 
 See `nowboard-run.md` and `AGENTS.md`.
 
@@ -30,4 +30,4 @@ If the JSON or HTML changed, the job commits `main` and Netlify deploys that tre
 npm test
 ```
 
-`workflow_dispatch` can rebuild tests. It is not the scheduler.
+`workflow_dispatch` rebuilds when the site button is pressed. It is not a scheduler.
