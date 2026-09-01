@@ -69,6 +69,7 @@ assert.doesNotMatch(gate, /const KEY\s*=/);
 
 assert.match(refresh, /actions\/workflows\/nowboard-run\.yml\/dispatches/);
 assert.match(refresh, /NOWBOARD_GITHUB_TOKEN/);
+assert.match(refresh, /Netlify\.env\.get/);
 assert.match(refresh, /request\.method/);
 assert.doesNotMatch(refresh, /ghp_|github_pat_/);
 

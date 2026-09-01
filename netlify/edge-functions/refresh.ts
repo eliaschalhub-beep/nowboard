@@ -31,7 +31,7 @@ export default async (request: Request) => {
     return page(405, "Use the Refresh button on the board.");
   }
 
-  const token = Deno.env.get("NOWBOARD_GITHUB_TOKEN") ?? "";
+  const token = Netlify.env.get("NOWBOARD_GITHUB_TOKEN") ?? Deno.env.get("NOWBOARD_GITHUB_TOKEN") ?? "";
   if (!token) {
     return page(503, "Refresh is not configured.");
   }
