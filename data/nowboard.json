@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-31",
+  "generated": "2026-09-01",
   "window": [
-    "2026-08-31",
-    "2026-09-06"
+    "2026-09-01",
+    "2026-09-07"
   ],
-  "source": "Apple Reminders (populated by reminders-task-sync)",
+  "source": "Apple Reminders · groups carried; Reminders.app not available on this runner",
   "groups": [
     {
       "name": "Work",
@@ -151,23 +151,23 @@
     {
       "date": "",
       "tag": "UFC",
-      "text": "MMA pound-for-pound rankings: Cris Cyborg not finished making an impact",
+      "text": "No dated UFC card verified for this window",
       "where": "",
-      "note": "At age 41, PFL women's featherweight champion continues win streak to secure spot in ESPN P4P top 10."
+      "note": "Named source did not yield a dated item."
     },
     {
-      "date": "2026-08-31",
+      "date": "",
       "tag": "Tennis",
-      "text": "Djokovic, ill and hurting, out of US Open in shocker",
+      "text": "No dated Tennis card verified for this window",
       "where": "",
-      "note": "Novak Djokovic, 39, is out of the US Open after a first-round defeat to Mariano Navone on Sunday night, losing 7-6 (5), 5-7, 4-6, 6-2, 6-1 in a marathon match that lasted 4 hours, 36 minutes. Djokovic had never lost in the first round at the US Open."
+      "note": "Named source did not yield a dated item."
     },
     {
-      "date": "2026-08-31",
+      "date": "",
       "tag": "Golf",
-      "text": "Tour Championship: Top moments as Scheffler claims victory",
+      "text": "No dated Golf card verified for this window",
       "where": "",
-      "note": "The Tour Championship concluded on Sunday with Scottie Scheffler winning. Here are all the best moments."
+      "note": "Named source did not yield a dated item."
     },
     {
       "date": "",
@@ -177,25 +177,21 @@
       "note": "Toyota's Sami Pajari makes history at Rally Paraguay as he wins his third World Rally Championship round in a row to cut Elfyn Evans' lead at the top of the standings."
     },
     {
-      "date": "2026-08-31",
+      "date": "",
       "tag": "F1",
       "text": "Monza memories - Italian GP in pictures through the years",
       "where": "",
       "note": "A selection of images from the Italian Grand Prix at Monza, which has hosted more Formula 1 races than any other circuit."
     },
     {
-      "date": "2026-08-31",
+      "date": "",
       "tag": "Boxing",
-      "text": "How Katie Taylor changed boxing: From pretending to be a boy to headlining MSG",
+      "text": "No dated Boxing card verified for this window",
       "where": "",
-      "note": "ESPN takes a look at Katie Taylor's career ahead of her highly anticipated final fight at Croke Park in Dublin, Ireland."
+      "note": "Named source did not yield a dated item."
     }
   ],
   "holidays": [
-    {
-      "date": "2026-08-31",
-      "text": "Summer Bank Holiday (UK)"
-    },
     {
       "date": "2026-09-07",
       "text": "Labor Day (US)"
@@ -204,27 +200,27 @@
   "travel": [
     {
       "level": "active",
-      "text": "Atlantic Tropical Weather Outlook — 000 ABNT20 KNHC 311756 TWOAT Tropical Weather Outlook NWS National Hurricane Center Miami FL 200 PM EDT Mon Aug 31 2026 For the North Atlantic...Caribbean Sea and the Gulf of America: Active Systems: The National Hurricane Center is issuing adv"
+      "text": "Atlantic Tropical Weather Outlook — 000 ABNT20 KNHC 312350 TWOAT Tropical Weather Outlook NWS National Hurricane Center Miami FL 800 PM EDT Mon Aug 31 2026 For the North Atlantic...Caribbean Sea and the Gulf of America: Active Systems: The National Hurricane Center is issuing adv"
     },
     {
       "level": "active",
-      "text": "Summary for Tropical Depression Five (AT5/AL052026) — ...TROPICAL DEPRESSION FORMS OVER THE NORTHERN GULF OF AMERICA... ...TROPICAL STORM WARNING IN EFFECT FOR PORTIONS OF THE UPPER TEXAS AND SOUTHWESTERN LOUISIANA COAST... As of 1:00 PM CDT Mon Aug 31 the center of Five was loca"
+      "text": "Summary for Tropical Storm Edouard (AT5/AL052026) — ...EDOUARD EXPECTED TO STRENGTHEN BEFORE REACHING THE NORTHWEST GULF COAST ON TUESDAY... ...A STORM SURGE WARNING AND HURRICANE WATCH HAVE BEEN ISSUED FOR A PORTION OF THE NORTHWEST GULF COAST... As of 10:00 PM CDT Mon Aug 31 th"
     },
     {
       "level": "active",
-      "text": "Tropical Depression Five Public Advisory Number 1a — Issued at 100 PM CDT Mon Aug 31 2026 000 WTNT35 KNHC 311751 TCPAT5 BULLETIN Tropical Depression Five Intermediate Advisory Number 1A NWS National Hurricane Center Miami FL AL052026 100 PM CDT Mon Aug 31 2026 ...TROPICAL DEPRESS"
+      "text": "Tropical Storm Edouard Public Advisory Number 3 — Issued at 1000 PM CDT Mon Aug 31 2026 000 WTNT35 KNHC 010252 TCPAT5 BULLETIN Tropical Storm Edouard Advisory Number 3 NWS National Hurricane Center Miami FL AL052026 1000 PM CDT Mon Aug 31 2026 ...EDOUARD EXPECTED TO STRENGTHEN BE"
     },
     {
       "level": "active",
-      "text": "Eastern North Pacific Tropical Weather Outlook — 000 ABPZ20 KNHC 311756 TWOEP Tropical Weather Outlook NWS National Hurricane Center Miami FL 1100 AM PDT Mon Aug 31 2026 For the eastern and central North Pacific east of 180 longitude: Active Systems: The National Hurricane Center"
+      "text": "Eastern North Pacific Tropical Weather Outlook — 000 ABPZ20 KNHC 312312 TWOEP Tropical Weather Outlook NWS National Hurricane Center Miami FL 500 PM PDT Mon Aug 31 2026 For the eastern and central North Pacific east of 180 longitude: Active Systems: The National Hurricane Center "
     },
     {
       "level": "active",
-      "text": "Summary for Hurricane Karina (EP1/EP112026) — ...KARINA CONTINUES TO MOVE WESTWARD OVER THE OPEN WATERS OF THE TROPICAL EASTERN PACIFIC... As of 5:00 AM HST Mon Aug 31 the center of Karina was located near 17.4, -125.1 with movement W at 9 mph. The minimum central pressure was 95"
+      "text": "Summary for Hurricane Karina (EP1/EP112026) — ...KARINA HOLDING STEADY AS A CATEGORY 4 HURRICANE... As of 5:00 PM HST Mon Aug 31 the center of Karina was located near 17.8, -126.6 with movement WNW at 9 mph. The minimum central pressure was 950 mb with maximum sustained winds of "
     },
     {
       "level": "active",
-      "text": "Hurricane Karina Public Advisory Number 17 — Issued at 500 AM HST Mon Aug 31 2026 000 WTPZ31 KNHC 311455 TCPEP1 BULLETIN Hurricane Karina Advisory Number 17 NWS National Hurricane Center Miami FL EP112026 500 AM HST Mon Aug 31 2026 ...KARINA CONTINUES TO MOVE WESTWARD OVER THE OP"
+      "text": "Hurricane Karina Public Advisory Number 19 — Issued at 500 PM HST Mon Aug 31 2026 000 WTPZ31 KNHC 010233 TCPEP1 BULLETIN Hurricane Karina Advisory Number 19 NWS National Hurricane Center Miami FL EP112026 500 PM HST Mon Aug 31 2026 ...KARINA HOLDING STEADY AS A CATEGORY 4 HURRICA"
     }
   ],
   "key_dates": [
